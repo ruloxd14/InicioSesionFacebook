@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Facebook"
+            android:textAlignment="center"
+            android:textColor="@color/azulgris"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:text="Número de celular o Correo electróninco"
+                android:textStyle="bold"
+                android:gravity="left"/>
+
+        </TableRow>
+        <TableRow>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/azulgris"
+                android:gravity="center"
+                android:padding="13dp" />
+
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:text="Contraseña"
+                android:textStyle="bold"
+                android:gravity="left" />
+
+        </TableRow>
+        <TableRow>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/azulgris"
+                android:gravity="center"
+                android:padding="13dp" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/azulclaro"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:padding="13dp"
+        android:text="Iniciar sesión"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Olvidaste tu contraseña?"
+        android:textStyle="bold"
+        android:textColor="@color/azulclaro"
+        android:padding="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/verde"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"
+        android:padding="13dp"
+        android:text="Crear cuenta nueva"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Español"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="English (US)"
+        android:textStyle="bold"
+        android:textColor="@color/azulclaro"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Français (France)"
+        android:textStyle="bold"
+        android:textColor="@color/azulclaro"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Português (Brasil)"
+        android:textStyle="bold"
+        android:textColor="@color/azulclaro"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="中文 (瓷的)"
+        android:textStyle="bold"
+        android:textColor="@color/azulclaro"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Italliano"
+        android:textStyle="bold"
+        android:textColor="@color/azulclaro"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Más idiomas"
+        android:textStyle="bold"
+        android:textColor="@color/azulclaro"
+        android:padding="10dp"/>
+
+
+
+
+</LinearLayout>

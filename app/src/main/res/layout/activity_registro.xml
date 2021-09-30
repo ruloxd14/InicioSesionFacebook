@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/azulfuerte">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Facebook"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_baseline_person_24" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="13dp"
+                android:text="Nombre" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="13dp"
+                android:text="Apellido" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/azulgris"
+                android:gravity="center"
+                android:padding="13dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/azulgris"
+                android:gravity="center"
+                android:padding="13dp" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:text="Correo"
+                android:gravity="left"
+                android:padding="13dp" />
+
+        </TableRow>
+        <TableRow>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/azulgris"
+                android:gravity="center"
+                android:padding="13dp" />
+
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:text="Contraseña"
+                android:gravity="left"
+                android:padding="13dp" />
+
+        </TableRow>
+        <TableRow>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/azulgris"
+                android:gravity="center"
+                android:padding="13dp" />
+
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:text="Teléfono"
+                android:gravity="left"
+                android:padding="13dp" />
+
+        </TableRow>
+        <TableRow>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/azulgris"
+                android:gravity="center"
+                android:padding="13dp" />
+
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/azulfuerte"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:padding="13dp"
+        android:text="Resgistar"/>
+
+
+</LinearLayout>
